@@ -22,7 +22,7 @@ func main() {
 		fmt.Printf("%s\t%s\n", d.Type, d.Name)
 		if d.Name == "ライト" {
 			cmd := switchbot.DeviceCommandRequest{
-				Command:     "turnOn",
+				Command:     "turnOff",
 				Parameter:   "default",
 				CommandType: "command",
 			}
